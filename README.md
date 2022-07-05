@@ -1,4 +1,4 @@
-# KullanicidanVeriAlmaimport java.util.Scanner;
+import java.util.Scanner;
 
 public class KdvHesaplamaAracı {
     public static void main(String[] args) {
@@ -13,7 +13,5 @@ public class KdvHesaplamaAracı {
         double total = tutar+kdv;
         System.out.println("KDV TUTARINIZ  : "+kdv);
         System.out.println("TOPLAM TUTARINIZ  : "+total);
-
-
     }
 }
